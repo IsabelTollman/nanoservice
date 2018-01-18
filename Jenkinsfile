@@ -8,6 +8,7 @@ pipeline {
     stage("foo") {
       steps {
         sh 'echo "The answer is 42"'
+        sh 'uname'
       }
     }
   }
