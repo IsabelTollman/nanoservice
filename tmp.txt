@@ -1,8 +1,7 @@
 pipeline {
   agent {
     dockerfile {
-      args "-v /tmp:/tmp -p 8000:8000"
-      args "unix:///var/run/docker.sock"
+      args "-v /tmp:/tmp -p 8111:8111"
     }
   }
   stages {
